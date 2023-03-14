@@ -29,6 +29,15 @@ public class Romain {
 			parler ("J'abandonne...");
 		}
 	}
-	
-	
+	public static void main(String[] args) {
+		//TODO créer un main permettant de tester la classe Romain
+		Romain tiberus=new Romain("Tiberus",5);
+		System.out.println(tiberus.getNom());
+		System.out.println(tiberus);
+		System.out.println(tiberus.prendreParole());
+		tiberus.parler("Je déteste ma vie");
+		tiberus.recevoirCoup(8);
+	}
+
+
 }
