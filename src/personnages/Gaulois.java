@@ -46,7 +46,7 @@ public class Gaulois {
 		Romain tiberus=new Romain("Tiberus",5);
 		asterix.frapper(tiberus);
 		Romain victimus=new Romain("Victimus",9);
-		asterix.boirePotion();
+		asterix.boirePotion(5);
 		asterix.frapper(victimus);
 	}
 
